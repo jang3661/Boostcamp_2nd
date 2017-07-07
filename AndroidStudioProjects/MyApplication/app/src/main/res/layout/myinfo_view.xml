@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:orientation="horizontal"
+    android:background="@drawable/think"
+    android:gravity="bottom"
+    android:paddingBottom="0dp">
+
+    <Button
+        android:id="@+id/liveBtn"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:background="#00ff0000"/>
+    <Button
+        android:id="@+id/photoBtn"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:background="#00ff0000"/>
+    <Button
+        android:id="@+id/checkinBtn"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:background="#00ff0000"/>
+
+</LinearLayout>
